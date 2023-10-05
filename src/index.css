@@ -65,7 +65,32 @@ input[type="text"] {
 .btn:active {
   background-color: rgb(42, 83, 1);
 }
+.btn-delete {
+  background-color: transparent;
+  border: none;
+  font-size: large;
+  cursor: pointer;
+}
+.btn-delete:hover,
+.btn-delete:active {
+  background-color: #4242424b;
+  border-radius: 3px;
+}
+.btn-reset {
+  font-size: 16px;
 
+  width: 100px;
+  height: 45px;
+  cursor: pointer;
+  background-color: brown;
+  border: none;
+  border-radius: 2px;margin: 10px 6px;
+}
+
+.btn-reset:hover,
+.btn-reset:active {
+  background-color: rgb(109, 17, 17);
+}
 .header {
   padding: 100px 0px;
 }
@@ -91,14 +116,3 @@ input[type="checkbox"] {
   padding: 5px 0px;
 }
 
-.btn-delete {
-  background-color: transparent;
-  border: none;
-  font-size: large;
-  cursor: pointer;
-}
-.btn-delete:hover,
-.btn-delete:active {
-  background-color: #4242424b;
-  border-radius: 3px;
-}
